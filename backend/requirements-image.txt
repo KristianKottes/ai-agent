@@ -1,0 +1,12 @@
+# Install in a dedicated Python 3.12 environment. The base app can run without this runtime.
+torch==2.10.0
+diffusers==0.36.0
+transformers==4.57.6
+safetensors==0.8.0
+accelerate==1.12.0
+huggingface-hub==0.36.2
+Pillow==11.3.0
+numpy==2.2.6
+peft==0.18.0
+
+httpx==0.28.1

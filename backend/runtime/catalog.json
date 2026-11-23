@@ -1,0 +1,49 @@
+{
+  "catalog_version": 1,
+  "components": [
+    {
+      "schema_version": 1,
+      "id": "runtime-smoke-test",
+      "name": "Runtime Lifecycle Test",
+      "version": "1.0.0",
+      "category": "utilities",
+      "description": "A tiny bundled utility used to verify install, start, stop, logging, and removal. It does not provide AI inference.",
+      "experimental": true,
+      "source": "Bundled first-party test utility",
+      "license": {
+        "source_code": "MIT",
+        "model_weights": "Not applicable",
+        "commercial_use": "permitted",
+        "attribution_required": false,
+        "license_file": "LICENSE.txt"
+      },
+      "platforms": [
+        { "os": "macos", "architectures": ["arm64"], "verification": "verified" },
+        { "os": "windows", "architectures": ["x86_64"], "verification": "not_tested" },
+        { "os": "linux", "architectures": ["x86_64"], "verification": "not_tested" }
+      ],
+      "backends": ["cpu"],
+      "gpu_requirements": "none",
+      "minimum_ram_bytes": 0,
+      "minimum_disk_bytes": 1048576,
+      "dependencies": [],
+      "installation_adapter": "python-script-v1",
+      "entrypoint": "worker.py",
+      "health_check": "json-ready-v1",
+      "artifacts": [
+        {
+          "bundle_path": "components/smoke/worker.py",
+          "target_path": "worker.py",
+          "size_bytes": 303,
+          "sha256": "951871ddeec592d29c58f4e1d6afd85ef8c78a9d50c4110b4d92f9b5eb3507f7"
+        },
+        {
+          "bundle_path": "components/smoke/LICENSE.txt",
+          "target_path": "LICENSE.txt",
+          "size_bytes": 1087,
+          "sha256": "7b271c2a4d2f2a3f911c1400118beb00abfd71a0f9a5689f1f03099cd7bc84f5"
+        }
+      ]
+    }
+  ]
+}

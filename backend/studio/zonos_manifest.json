@@ -1,0 +1,23 @@
+{
+  "assets": [
+    {
+      "path": "backbone-ptq.gguf",
+      "url": "https://huggingface.co/Zyphra/ZONOS3-Mini/resolve/15fb29d7787f7cc61d12616341710bcb1d3e9b6c/gguf/backbone-ptq.gguf?download=true",
+      "size": 663150624,
+      "sha256": "66fceb6d73a8c30bde80249e4112bb308380ab7f3384fa11c8e4048115e4ceec"
+    },
+    {
+      "path": "zac-keep2.gguf",
+      "url": "https://huggingface.co/Zyphra/ZONOS3-Mini/resolve/15fb29d7787f7cc61d12616341710bcb1d3e9b6c/gguf/zac-keep2.gguf?download=true",
+      "size": 452325440,
+      "sha256": "834e5b70b88294afc3c702a478487e0664dcc6b574c16fc6167d72444aabeafd"
+    },
+    {
+      "path": "spk-encoder.gguf",
+      "url": "https://huggingface.co/Zyphra/ZONOS3-Mini/resolve/15fb29d7787f7cc61d12616341710bcb1d3e9b6c/gguf/spk-encoder.gguf?download=true",
+      "size": 45385728,
+      "sha256": "9539f340b70be246005403b9c254732e180e85e0b3c57fb1973f0d6bc6c59bdc"
+    }
+  ],
+  "wheels": []
+}

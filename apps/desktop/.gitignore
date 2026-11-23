@@ -1,0 +1,8 @@
+# Desktop-specific outputs; shared rules live in the repository root.
+/node_modules/
+/dist/
+/src-tauri/target/
+/src-tauri/.macos-build/
+/src-tauri/gen/
+/src-tauri/binaries/
+*.tsbuildinfo
